@@ -26,7 +26,6 @@ html{
 #introduction {
     margin: 150px auto;
     padding: 20px;
-    width: 50%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -93,6 +92,8 @@ html{
     font-weight: 600;
     text-align: center;
     font-size: 80px;
+    align-items: center;
+    align-content: center;
 }
 
 #sideheading2 {
