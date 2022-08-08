@@ -68,7 +68,7 @@ const scene2 = new ScrollMagic.Scene({
   .addTo(controller);
           
 const scene3 = new ScrollMagic.Scene({
-  triggerElement: ".centre"
+  triggerElement: "#centre"
   })
   .setTween(tl3)
   .addTo(controller);
