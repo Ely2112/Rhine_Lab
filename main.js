@@ -134,3 +134,11 @@ setInterval(function(){
     }
   }
 }, 100);
+
+
+setTimeout("changecentre()",100)
+function changecentre(){
+  var ratio = 0.000732421875*window.innerWidth;
+  document.getElementById("centre").style.transform = `scale(${ratio})`;
+  setTimeout("changecentre()",100)
+}
