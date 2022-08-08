@@ -561,7 +561,6 @@ html{
     display: block;
     transform-origin: center center;
     margin: 0 auto;
-    transform: scale(calc(0.00073242*));
     width: 1024px;
     height: 576px;
 }

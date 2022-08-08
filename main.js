@@ -138,7 +138,7 @@ setInterval(function(){
 
 setTimeout("changecentre()",100)
 function changecentre(){
-  var ratio = 0.000732421875*window.innerWidth;
+  var ratio = 0.0007*window.outerWidth;
   document.getElementById("centre").style.transform = `scale(${ratio})`;
-  setTimeout("changecentre()",100)
+  setTimeout("changecentre()",100);
 }
