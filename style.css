@@ -165,76 +165,10 @@ html{
 #fileimg {
     margin: 0 auto;
     width: 100%;
-    height: auto;
-    margin-top: 25%;
+    height: 50%;
+    margin-top: 1%;
     display: block;
 }
-@media only screen and (min-height: 0px) and (max-height: 700px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 0%;
-        display: block;
-    }
-}
-@media only screen and (min-height: 700px) and (max-height: 800px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 1%;
-        display: block;
-    }
-}
-@media only screen and (min-height: 800px) and (max-height: 900px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 5%;
-        display: block;
-    }}
-@media only screen and (min-height: 900px) and (max-height: 1000px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 15%;
-        display: block;
-    }}
-@media only screen and (min-height: 1000px) and (max-height: 1100px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 25%;
-        display: block;
-    }}
-@media only screen and (min-height: 1100px) and (max-height: 1200px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 35%;
-        display: block;
-    }}
-@media only screen and (min-height: 1200px) and (max-height: 1300px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 35%;
-        display: block;
-    }}
-@media only screen and (min-height: 1200px) and (max-height: 1300px){
-    #fileimg {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        margin-top: 45%;
-        display: block;
-    }}
 
 #file_mid {
     display: inline-block;
