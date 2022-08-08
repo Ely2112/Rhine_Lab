@@ -816,6 +816,19 @@ html{
     margin-top: -155.5px;
     display: inline-block;
 }
+#SCIEN_section_icon{
+    text-align: center;
+}
+#SCIEN_section_icon_line {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #010101;
+}
+#SCIEN_section_icon_icon {
+    margin: auto;
+    margin-top: -155.5px;
+    display: inline-block;
+}
 #cmpt_green{
     animation: cmpt_up_down 5s ease-in-out infinite;
 }
@@ -1235,11 +1248,94 @@ html{
     position: relative;
     top: -180px;
 }
+#SCIEN_section_main_north_pole{
+    text-align: center;
+    place-items: center;
+    align-items: center;
+}
 #ECO_Muelsyse_profile{
     width: 100%;
     height: auto;
 }
-
+#SCIEN_pole{
+    width: 45%;
+    border-radius: 25px;
+}
+ 
+#SCIEN_N_1{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -6s;
+} 
+#SCIEN_O{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -5.5s;
+}
+#SCIEN_R_1{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -5s;
+}
+#SCIEN_T{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -4.5s;
+}
+#SCIEN_H{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -4s;
+}
+#SCIEN_E{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -3.5s;
+}
+#SCIEN_R{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -3s;
+}
+#SCIEN_N{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -2.5s;
+}
+#SCIEN_S{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -1.5s;
+}
+#SCIEN_A{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -1s;
+}
+#SCIEN_M{
+    animation: SCIEN_word_fade 10s linear infinite;
+    animation-delay: -0.5s;
+}
+#SCIEN_I{
+    animation: SCIEN_word_fade 10s linear infinite;
+}
+#SCIEN_section_main_pole_info{
+    width: 20%;
+    position: relative;
+    top: -30px;
+}
+#SCIEN_section_main_pole_text{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 30%;
+    font-size: 30px;
+    color: #010101;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+}
+.SCIEN_cross{
+    animation: cmpt_box_1 4s linear infinite;
+}
+@keyframes SCIEN_word_fade{
+    0%{opacity: 1;}
+    40%{opacity: 0;}
+    80%{opacity: 1;}
+    100%{opacity: 1;}
+}
 @keyframes ECO_water_small_circle_fade {
     0%{opacity: 1;}
     25%{opacity: 0;}
