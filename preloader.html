@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>RHINE LAB</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="main_preloader.js" defer></script>
+</head>
+<body>
+    <div id="preloader">
+        <span id="headingAccess">ACCESS PERMISSION REQUIRED</span>
+        <div class="midblock">
+          <svg class="whole_icon" width="886" height="411" viewBox="0 0 886 411" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="minus" d="M603 204H737" stroke="#010101" stroke-width="44"/>
+              <path class="plus" d="M212.5 271V137M146 204H280" stroke="#010101" stroke-width="44"/>
+              <path class="icon_path" d="M518 130.5C518 130.5 405 256 345 318.5C285 381 178 380.999 121.5 351.499C65.0002 321.999 25.9383 250.402 38.5001 175.999C49.6434 109.999 105 56.4999 161.5 41.5C198.5 31.6772 274 33.4585 314.5 73C355 112.542 525 293.515 560 328C595 362.485 678.5 394.499 748 358.5C800.725 331.189 832.34 298.499 846 238.499C858.609 183.114 838 131 813 98.9998C788 67 748 41.9994 694.5 36.9994C641 31.9994 593 56.5 564 84" stroke="black" stroke-width="72"/> 
+            </svg>
+        </div>
+        <span id="heading3Access">- ID CONFIRMED: DOCTOR</span>
+        <span id="heading4Access">- REQUEST RECEIVED</span>
+        <span id="heading5Access">- START PROCESSING...</span>
+        <div id="heading6Access">
+          <span id="heading6Access_4">P</span>
+          <span id="heading6Access_2">E</span>
+          <span id="heading6Access_1">R</span>
+          <span id="heading6Access_1">M</span>
+          <span id="heading6Access_3">I</span>
+          <span id="heading6Access_2">S</span>
+          <span id="heading6Access_4">S</span>
+          <span id="heading6Access_3">I</span>
+          <span id="heading6Access_1">O</span>
+          <span id="heading6Access_4">N</span>
+          <span id="heading6Access_3">&nbsp</span>
+          <span id="heading6Access_2">A</span>
+          <span id="heading6Access_3">U</span>
+          <span id="heading6Access_4">T</span>
+          <span id="heading6Access_1">H</span>
+          <span id="heading6Access_1">O</span>
+          <span id="heading6Access_4">R</span>
+          <span id="heading6Access_2">I</span>
+          <span id="heading6Access_3">Z</span>
+          <span id="heading6Access_4">E</span>
+          <span id="heading6Access_1">D</span>
+        </div>
+        <svg class="circle" width="565" height="562" viewBox="0 0 565 562" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="vector1" d="M27.4636 398.889C-31.0514 273.002 10.4071 128.137 123.848 50.1707C123.848 50.1707 182.809 -2.28743 303.358 1.39408C423.906 5.07562 546.618 116.681 561.668 253.542C576.718 390.404 485.484 513.779 354.444 550.131C223.404 586.482 85.9787 524.775 27.4636 398.889Z" stroke="#010101" stroke-width="1.5"/>
+          <path class="vector2" d="M230.391 61.7321C339.31 36.7261 446.44 93.6175 488.846 195.992C488.846 195.992 520.284 251.199 497.208 345.505C474.133 439.811 365.715 517.756 255.429 506.7C145.143 495.644 63.2648 403.156 56.5732 293.889C49.8816 184.621 121.472 86.7381 230.391 61.7321Z" stroke="white" stroke-width="2"/>
+          <path class="vector5" d="M161.434 329.5C137.206 335.285 113.219 322.814 103.568 300.079C103.568 300.079 96.4539 287.835 101.413 266.772C106.373 245.708 130.386 228.124 154.988 230.374C179.59 232.624 198.019 253.078 199.723 277.419C201.427 301.76 185.661 323.715 161.434 329.5Z" stroke="#001100" stroke-width="1.5"/>
+          <path class="vector6" d="M423.434 329.5C399.206 335.285 375.219 322.814 365.568 300.079C365.568 300.079 358.454 287.835 363.413 266.772C368.373 245.708 392.386 228.124 416.988 230.374C441.59 232.624 460.019 253.078 461.723 277.419C463.427 301.76 447.661 323.715 423.434 329.5Z" stroke="#001100" stroke-width="1.5"/>
+          <circle cx="281.5" cy="136.5" r="12.5" fill="#FC902D"/>
+          <circle cx="281.5" cy="424.5" r="12.5" fill="#FB922E"/>
+          <circle class="special_circle" cx="281.5" cy="281.5" r="12.5" transform="rotate(29.5 281.5 281.5)" fill="#010101"/>
+          <circle class="special_circle" cx="320.5" cy="282.5" r="2.5" fill="#010101"/>
+          <circle class="special_circle" cx="242.5" cy="283.5" r="2.5" fill="#010101"/>
+          <circle class="special_circle" cx="262.5" cy="316.5" r="2.5" fill="#010101"/>
+          <circle class="special_circle" cx="261.5" cy="250.5" r="2.5" fill="#010101"/>
+          <circle class="special_circle"cx="299.5" cy="250.5" r="2.5" fill="#010101"/>
+          <circle class="special_circle" cx="300.5" cy="316.5" r="2.5" fill="#010101"/>
+          <path class="vector3" d="M150 230H412" stroke="black" stroke-width="1.5"/>
+          <path class="vector4" d="M412 331L150 331" stroke="black" stroke-width="1.5"/>
+          </svg>
+      </div>
+</body>
+</html>
