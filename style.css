@@ -20,7 +20,6 @@ html{
 * {
     color: #010101;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
 }
 
 #introduction {
@@ -496,7 +495,7 @@ html{
     transform-origin: center center;
     margin: 0 auto;
     width: 1024px;
-    height: 576px;
+    height: auto;
 }
 
 
@@ -680,6 +679,7 @@ html{
     display: inline-block;
 }
 #STRU_section_main_ahrens_parvis_main{
+    height: auto;
     width: 100%;
 }
 #NRG_section_icon{
@@ -696,6 +696,7 @@ html{
     display: inline-block;
 }
 #NRG_section_main_FERDINAND_CLOONEY_main{
+    height: auto;
     width: 100%;
 }
 #ORIG_section_icon{
@@ -767,6 +768,7 @@ html{
     border: #E4EBE9 2px solid;
 }
 #CMPT_CTRL_section_main_svg{
+    height: auto;
     width: 100%;
 }
 #CMPT_INFO{
