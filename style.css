@@ -832,17 +832,25 @@ html{
     padding: 5px 20px;
     margin: 0 auto;
     width: 30%;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: #010101;
     background: #ffffff;
     border-radius: 25px;
-    position: relative;
-    top: -239px;
 }
-#STRU_section_main_particles_info{
-    position: relative;
-    top: -250px;
-    width: 20%;
+#stru_1_BASIC{
+    animation: stru_1_fade 9s linear infinite;
+}
+#stru_1_BIOLOGICAL{
+    opacity: 0;
+    transform: scaleX(0);
+    animation: stru_1_fade 9s linear infinite;
+    animation-delay: 3s;
+}
+#stru_1_STRUCTURAL{
+    opacity: 0;
+    transform: scaleX(0);
+    animation: stru_1_fade 9s linear infinite;
+    animation-delay: 6s;
 }
 #STRU_particle_bar{
     position: absolute;
@@ -1223,6 +1231,22 @@ html{
 }
 .SCIEN_cross{
     animation: cmpt_box_1 4s linear infinite;
+}
+#stru_profile{
+    width: 100%;
+    height: auto;
+}
+#STRU_section_main_particles_info{
+    width: 25%;
+    height: auto;
+}
+@keyframes stru_1_fade{
+    0%{opacity: 0; transform: scaleX(1);}
+    3%{opacity: 1; transform: scaleX(1);}
+    30%{opacity: 1; transform: scaleX(1);}
+    33%{opacity: 0; transform: scaleX(1);}
+    34%{opacity: 0; transform: scaleX(0);}
+    100%{opacity: 0; transform: scaleX(0);}
 }
 @keyframes SCIEN_word_fade{
     0%{opacity: 1;}
