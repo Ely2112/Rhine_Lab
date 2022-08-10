@@ -713,6 +713,7 @@ html{
     display: inline-block;
 }
 #ORIG_section_main_Dorothy_Franks_main{
+    height: auto;
     width: 100%;
 }
 #ECO_section_icon{
@@ -1035,30 +1036,6 @@ html{
     animation-delay: 10s;
 }
 
-#eco_muelsyse_1{
-    animation: ECO_Muelsyse_fade 25s linear infinite;
-}
-#eco_muelsyse_2{
-    opacity: 0;
-    animation: ECO_Muelsyse_fade 25s linear infinite;
-    animation-delay: 5s;
-}
-#eco_muelsyse_3{
-    opacity: 0;
-    animation: ECO_Muelsyse_fade 25s linear infinite;
-    animation-delay: 10s;
-}
-#eco_muelsyse_4{
-    opacity: 0;
-    animation: ECO_Muelsyse_fade 25s linear infinite;
-    animation-delay: 15s;
-}
-#eco_muelsyse_5{
-    opacity: 0;
-    animation: ECO_Muelsyse_fade 25s linear infinite;
-    animation-delay: 20s;
-}
-
 #ECO_section_main_water{
     text-align: center;
     place-items: center;
@@ -1170,6 +1147,10 @@ html{
     width: 100%;
     height: auto;
 }
+#SCIEN_MAGALLAN_profile{
+    width: 100%;
+    height: auto;
+}
 #SCIEN_pole{
     width: 45%;
     border-radius: 25px;
@@ -1259,13 +1240,6 @@ html{
     0%{opacity: 0;}
     25%{opacity: 1;}
     50%{opacity: 0;}
-    100%{opacity: 0;}
-}
-@keyframes ECO_Muelsyse_fade {
-    0%{opacity: 0;}
-    1%{opacity: 1;}
-    19%{opacity: 1;}
-    20%{opacity: 0;}
     100%{opacity: 0;}
 }
 @keyframes ORIG_Dorothy_Franks_fade {

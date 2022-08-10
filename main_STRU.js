@@ -18,10 +18,6 @@ tl8.from("#ORIG_Dorothy_Franks_2", 1, {opacity: 0});
 tl8.from("#ORIG_Dorothy_Franks_3", 1, {opacity: 0});
 
 tl9.from("#eco_muelsyse_1", 1, {opacity: 0});
-tl9.from("#eco_muelsyse_2", 1, {opacity: 0});
-tl9.from("#eco_muelsyse_3", 1, {opacity: 0});
-tl9.from("#eco_muelsyse_4", 1, {opacity: 0});
-tl9.from("#eco_muelsyse_5", 1, {opacity: 0});
 
 
 const scene5 = new ScrollMagic.Scene({
