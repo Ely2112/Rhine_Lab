@@ -574,7 +574,7 @@ html{
     margin-left: -80%; /*change with number of iamge*/
 }
 #centre_description {
-    width: 400px;
+    width: 350px;
     height: auto;
     text-align: left;
     position: absolute;
@@ -593,7 +593,7 @@ html{
     z-index: 102;
 }
 #centre_description2{
-    width: 410px;
+    width: 360px;
     height: auto;
     text-align: left;
     position: absolute;
