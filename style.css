@@ -833,7 +833,7 @@ html{
     padding: 5px 20px;
     margin: 0 auto;
     width: 30%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #010101;
     background: #ffffff;
     border-radius: 25px;
@@ -929,7 +929,7 @@ html{
     padding: 5px 20px;
     margin: 0 auto;
     width: 32%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #010101;
     background: #ffffff;
     border-radius: 25px;
@@ -1015,7 +1015,7 @@ html{
     margin: 0 auto;
     padding: 0 10px;
     width: 29%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #010101;
     background: #ffffff;
     padding: 5px;
@@ -1130,7 +1130,7 @@ html{
     margin: 0 auto;
     padding: 0 10px;
     width: 29%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #010101;
     background: #ffffff;
     padding: 5px;
@@ -1150,8 +1150,8 @@ html{
     height: auto;
 }
 #SCIEN_pole{
-    width: 45%;
-    border-radius: 25px;
+    width: 100%;
+    height: auto;
 }
  
 #SCIEN_N_1{
@@ -1203,21 +1203,17 @@ html{
 }
 #SCIEN_section_main_pole_info{
     width: 20%;
-    position: relative;
-    top: -30px;
 }
 #SCIEN_section_main_pole_text{
     text-align: center;
     margin: 0 auto;
     padding: 0 10px;
     width: 30%;
-    font-size: 30px;
+    font-size: 1.3vw;
     color: #010101;
     background: #ffffff;
     padding: 5px;
     border-radius: 10px;
-    position: relative;
-    top: -30px;
 }
 .SCIEN_cross{
     animation: cmpt_box_1 4s linear infinite;
