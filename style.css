@@ -111,6 +111,7 @@ html{
 }
 
 .sideheading {
+    font-size: 0.8vw;
     opacity: 0;
     position: fixed;
     z-index: 102;
@@ -149,17 +150,17 @@ html{
 #sideheading2_1 {
     display: block;
     text-align: center;
-    font-size: 38px;
+    font-size: 2vw;
 }
 #sideheading2_2 {
     display: block;
     text-align: center;
-    font-size: 16px;
+    font-size: 0.85vw;
 }
 #sideheading2_3 {
     display: block;
     text-align: center;
-    font-size: 34px;
+    font-size: 1.8vw;
 }
 #fileimg {
     margin: 0 auto;
@@ -912,22 +913,30 @@ html{
 #NRG_energy_bar_3{
     animation: NRG_energy_bar_move3 3s ease-in-out infinite;
 }
+#NRG_energy_bar_2_new{
+    animation: NRG_energy_bar_move2_new 7s ease-in-out infinite;
+}
+#NRG_energy_bar_1_new{
+    animation: NRG_energy_bar_move1_new 5s ease-in-out infinite;
+}
 #NRG_section_main_energy_info{
     width: 20%;
-    position: relative;
-    top: 0px;
-    top: -170px;
+}
+#ORIG_energy_bar_2_new{
+    animation: ORIG_energy_bar_move2_new 10s ease-in-out infinite;
 }
 #NRG_section_main_energy_text{
     padding: 5px 20px;
     margin: 0 auto;
     width: 32%;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: #010101;
     background: #ffffff;
     border-radius: 25px;
-    position: relative;
-    top: -160px;
+}
+#NRG_section_main_energy_profile{
+    width: 100%;
+    height: auto;
 }
 #NRG_line{
     stroke-dasharray: 150;
@@ -960,8 +969,7 @@ html{
     width: 20%;
     display: block;
     margin: 0 57%;
-    position: relative;
-    top: -170px;
+
 }
 #ORIG_orginium_bar_1{
     animation: NRG_energy_bar_move1 10s ease-in-out infinite;
@@ -997,38 +1005,21 @@ html{
     opacity: 0.7;  
     transition: all 3s linear;
 }
-#ORIG_orginium_prinicples{
-    display: block;
-    background: #ffffff;
-    padding: 3px;
-    border: rgb(203, 203, 203) 3px solid;
-    border-bottom: black 3px solid;
-    font-weight: 200;
-    font-size: 30px;
-    width: 250px;
-    top: -300px;
-    margin: 0 30%;
-    position: relative;
-}
 #ORIG_section_main_originium_info{
     width: 20%;
     margin: 0 auto;
     display: block;
-    position: relative;
-    top: -270px;
 }
 #ORIG_section_main_originium_text{
     text-align: center;
     margin: 0 auto;
     padding: 0 10px;
     width: 29%;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: #010101;
     background: #ffffff;
     padding: 5px;
     border-radius: 25px;
-    position: relative;
-    top: -250px;
 }
 #ORIG_Dorothy_Franks_1{
     animation: ORIG_Dorothy_Franks_fade 15s linear infinite;
@@ -1043,15 +1034,18 @@ html{
     animation: ORIG_Dorothy_Franks_fade 15s linear infinite;
     animation-delay: 10s;
 }
-
+#ORIG_section_main_originium_profile{
+    width: 100%;
+    height: auto;
+}
 #ECO_section_main_water{
     text-align: center;
     place-items: center;
     align-items: center;
 }
 #ECO_water{
-    width: 45%;
-    border-radius: 25px;
+    width: 100%;
+    height: auto;
 }
 #ECO_water_bar{
     width: 20%;
@@ -1130,21 +1124,17 @@ html{
     width: 20%;
     margin: 0 auto;
     display: block;
-    position: relative;
-    top: -200px;
 }
 #ECO_section_main_water_text{
     text-align: center;
     margin: 0 auto;
     padding: 0 10px;
     width: 29%;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: #010101;
     background: #ffffff;
     padding: 5px;
     border-radius: 25px;
-    position: relative;
-    top: -180px;
 }
 #SCIEN_section_main_north_pole{
     text-align: center;
@@ -1240,6 +1230,42 @@ html{
     width: 25%;
     height: auto;
 }
+#NRG_info_text{
+    animation: NRG_energy_words_word_spin 15s ease-in-out infinite;
+}
+#water_wave_1{
+    animation: water_wave_1 alternate 9s ease-in-out infinite;
+}
+#water_wave_2{
+    animation: water_wave_2 alternate 5s ease-in-out infinite;
+}
+#water_wave_3{
+    animation: water_wave_3 alternate 4s ease-in-out infinite;
+}
+@keyframes water_wave_1 {
+    to{transform: translateX(-20%);}
+}
+@keyframes water_wave_2 {
+    to{transform: translateX(3%);}
+}
+@keyframes water_wave_3 {
+    to{transform: translateX(10%);}
+}
+@keyframes NRG_energy_bar_move1_new {
+    0%{transform: translateX(0%);}
+    20%{transform: translateX(5%);}
+    100%{transform: translateX(0%);}
+}
+@keyframes NRG_energy_bar_move2_new {
+    0%{transform: translateX(0%);}
+    60%{transform: translateX(1.5%);}
+    100%{transform: translateX(0%);}
+}
+@keyframes ORIG_energy_bar_move2_new {
+    0%{transform: translateX(0%);}
+    50%{transform: translateX(5%);}
+    100%{transform: translateX(0%);}
+}
 @keyframes stru_1_fade{
     0%{opacity: 0; transform: scaleX(1);}
     3%{opacity: 1; transform: scaleX(1);}
@@ -1299,16 +1325,14 @@ html{
     100%{transform: translateX(0%);}
 }
 @keyframes NRG_energy_words_word_spin {
-    10%{transform: translateY(-105%);}
-    20%{transform: translateY(-100%);}
-    30%{transform: translateY(-205%);}
-    40%{transform: translateY(-200%);}
-    50%{transform: translateY(-305%);}
-    60%{transform: translateY(-300%);}
-    70%{transform: translateY(-405%);}
-    80%{transform: translateY(-400%);}
-    90%{transform: translateY(-505%);}
-    100%{transform: translateY(-500%);}
+    5%{transform: translateY(-79.04px);}
+    25%{transform: translateY(-79.04px);}
+    30%{transform: translateY(-158.08px);}
+    50%{transform: translateY(-158.08px);}
+    55%{transform: translateY(-237.12px);}
+    75%{transform: translateY(-237.12px);}
+    80%{transform: translateY(-308.16px);}
+    100%{transform: translateY(-308.16px);}
 }
 @keyframes STRU_particles_title_fade {
     0%{opacity: 0; z-index: 101;}
