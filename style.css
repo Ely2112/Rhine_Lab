@@ -84,7 +84,7 @@ html{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 400px;
 }
 
 .heading {
@@ -1237,6 +1237,167 @@ html{
 }
 #water_wave_3{
     animation: water_wave_3 alternate 4s ease-in-out infinite;
+}
+.KW{
+    width: 35%;
+    height: 0;
+    display: flex;
+    margin: auto;
+    padding: 2vh 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+#KW_button_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin: 0;
+}
+#KW_button{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: #FC902D 3px solid;
+    border-left: #FC902D 20px solid;
+    border-right: #FC902D 20px solid;
+    color: #FC902D;
+    width: 30%;
+    height: 10%;
+    font-size: 3vw;
+    border-radius: 10px;
+}
+#KW_button:hover{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: #fc2d2d 3px solid;
+    border-left: #fc2d2d 20px solid;
+    border-right: #fc2d2d 20px solid;
+    color: #fc2d2d;
+    width: 30%;
+    height: 10%;
+    font-size: 3vw;
+    cursor:pointer;
+}
+#KW_saying{
+    padding: 10% 0 ;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    display: block;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.AP{
+    width: 35%;
+    height: 0;
+    display: flex;
+    margin: auto;
+    padding: 2vh 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+#AP_button_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin: 0;
+}
+#AP_button{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: #FC902D 3px solid;
+    border-left: #FC902D 20px solid;
+    border-right: #FC902D 20px solid;
+    color: #FC902D;
+    width: 30%;
+    height: 10%;
+    font-size: 3vw;
+    border-radius: 10px;
+}
+#AP_button:hover{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: #fc2d2d 3px solid;
+    border-left: #fc2d2d 20px solid;
+    border-right: #fc2d2d 20px solid;
+    color: #fc2d2d;
+    width: 30%;
+    height: 10%;
+    font-size: 3vw;
+    cursor:pointer;
+}
+#AP_saying{
+    padding: 10% 0 ;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    display: block;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+
+.M{
+    width: 35%;
+    height: 0;
+    display: flex;
+    margin: auto;
+    padding: 2vh 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+#M_button_text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin: 0;
+}
+#M_button{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: #FC902D 3px solid;
+    border-left: #FC902D 20px solid;
+    border-right: #FC902D 20px solid;
+    color: #FC902D;
+    width: 30%;
+    height: 10%;
+    font-size: 3vw;
+    border-radius: 10px;
+}
+#M_button:hover{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: #fc2d2d 3px solid;
+    border-left: #fc2d2d 20px solid;
+    border-right: #fc2d2d 20px solid;
+    color: #fc2d2d;
+    width: 30%;
+    height: 10%;
+    font-size: 3vw;
+    cursor:pointer;
+}
+#M_saying{
+    padding: 10% 0 ;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    display: block;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 1s ease-in-out;
 }
 @keyframes water_wave_1 {
     to{transform: translateX(-20%);}
