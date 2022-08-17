@@ -10,7 +10,7 @@ const controller = new ScrollMagic.Controller();
 tl.from('#file_heading1', 5, {y:200, opacity: 0});
 tl.to('#file_heading1', 10, {y:0, opacity: 1});
 tl.to('#file_heading1', 5, {y:200, opacity: 0});
-tl.add(function(){document.getElementById("file_heading1").innerHTML = "SELECTING FILES. . . ";})
+tl.add(function(){document.getElementById("file_headi-ng1").innerHTML = "SELECTING FILES. . . ";})
 tl.to('#file_heading1', 10, {y:200, opacity: 0});
 tl.add(function(){document.getElementById("file_heading1").innerHTML = "FILE NUMBER: X-001";})
 tl.to('#file_heading1', 5, {y:0, opacity: 1});
@@ -35,8 +35,7 @@ tl2.from("#file_heading_box3", 1, {x:-200,y:200,opacity: 0},"=-1");
 tl2.from("#file_heading_box4", 1, {x:200,y:200,opacity: 0},"=-1");
 
 tl3.from(".slider1", 1, {y:200,opacity: 0});
-tl3.from("#centre_description", 1, {x:-200,y:100,opacity: 0},"=-1");
-tl3.from("#centre_description2", 1, {x:-200,y:100,opacity: 0},"=-1");
+tl3.from("#centre_description", 1, {y:200,opacity: 0});
 
 tl4.from("#searching", 0.3, {opacity: 0});
 tl4.to("#searching", 0.3, {opacity: 1});
@@ -93,6 +92,15 @@ function updatePercentage() {
 
 let counter1 = 1;
 let state1 = 0; //0 means can move, other means cannot move
+
+if (state1 == 0){
+  document.getElementById("radio-btn1_" + counter1).checked = true;
+  counter1++;
+  if(counter1 > 9){
+    counter1=1;
+  }
+}
+
 setInterval(function(){
   if (state1 == 0){
     document.getElementById("radio-btn1_" + counter1).checked = true;
@@ -113,15 +121,15 @@ function setstate1(checker){
   }
 }
 
-document.getElementById("radio-btn1_1").onclick = function(){state1 = 1;counter1 = 1;setTimeout("setstate1(1)", 2000);};
-document.getElementById("radio-btn1_2").onclick = function(){state1 = 2;counter1 = 2;setTimeout("setstate1(2)", 2000);};
-document.getElementById("radio-btn1_3").onclick = function(){state1 = 3;counter1 = 3;setTimeout("setstate1(3)", 2000);};
-document.getElementById("radio-btn1_4").onclick = function(){state1 = 4;counter1 = 4;setTimeout("setstate1(4)", 2000);};
-document.getElementById("radio-btn1_5").onclick = function(){state1 = 5;counter1 = 5;setTimeout("setstate1(5)", 2000);};
-document.getElementById("radio-btn1_6").onclick = function(){state1 = 6;counter1 = 6;setTimeout("setstate1(6)", 2000);};
-document.getElementById("radio-btn1_7").onclick = function(){state1 = 7;counter1 = 7;setTimeout("setstate1(7)", 2000);};
-document.getElementById("radio-btn1_8").onclick = function(){state1 = 8;counter1 = 8;setTimeout("setstate1(8)", 2000);};
-document.getElementById("radio-btn1_9").onclick = function(){state1 = 9;counter1 = 9;setTimeout("setstate1(9)", 2000);};
+document.getElementById("radio-btn1_1").onclick = function(){state1 = 1;counter1 = 1;setstate1(1);};
+document.getElementById("radio-btn1_2").onclick = function(){state1 = 2;counter1 = 2;setstate1(2);};
+document.getElementById("radio-btn1_3").onclick = function(){state1 = 3;counter1 = 3;setstate1(3);};
+document.getElementById("radio-btn1_4").onclick = function(){state1 = 4;counter1 = 4;setstate1(4);};
+document.getElementById("radio-btn1_5").onclick = function(){state1 = 5;counter1 = 5;setstate1(5);};
+document.getElementById("radio-btn1_6").onclick = function(){state1 = 6;counter1 = 6;setstate1(6);};
+document.getElementById("radio-btn1_7").onclick = function(){state1 = 7;counter1 = 7;setstate1(7);};
+document.getElementById("radio-btn1_8").onclick = function(){state1 = 8;counter1 = 8;setstate1(8);};
+document.getElementById("radio-btn1_9").onclick = function(){state1 = 9;counter1 = 9;setstate1(9);};
 
 
 setInterval(function(){
@@ -135,10 +143,3 @@ setInterval(function(){
   }
 }, 100);
 
-
-setTimeout("changecentre()",100)
-function changecentre(){
-  var ratio = 0.0007*window.outerWidth;
-  document.getElementById("centre").style.transform = `scale(${ratio})`;
-  setTimeout("changecentre()",100);
-}

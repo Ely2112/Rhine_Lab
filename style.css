@@ -495,7 +495,7 @@ html{
     display: block;
     transform-origin: center center;
     margin: 0 auto;
-    width: 1024px;
+    width: 70vw;
     height: auto;
 }
 
@@ -506,14 +506,14 @@ html{
     justify-content: center;
     align-items: center;
     background: #FC902D;
-    width: 1024px;
-    height: 576px;
+    width: 70vw;
+    height: 39.375vw;
     border-radius: 10px;
     overflow: hidden;
 }
 .slides1{
     width: 1000%; /*change with number of iamge*/
-    height: 576px;
+    height: 39.375vw;
     display: flex;
 }
 .slides1 input{
@@ -524,12 +524,12 @@ html{
     transition: 1s;
 }
 .slide1 img{
-    width: 1024px;
-    height: 576px;
+    width: 70vw;
+    height: 39.375vw;
 }
 .navigation1-manual{
     position: absolute;
-    width: 1024px;
+    width: 70vw;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -574,43 +574,32 @@ html{
 #radio-btn1_9:checked ~ .first{
     margin-left: -80%; /*change with number of iamge*/
 }
-#centre_description {
-    width: 350px;
+#index_info{
+    width: 30%;
     height: auto;
-    text-align: left;
-    position: absolute;
-    top: 387px;
-    left: 750px;
-    border-left: #FC902D 3px solid;
-    background-color: white;
-    opacity: 0.8;
-    z-index: 102;
-    animation: fileblink1 2s linear infinite;
+    display: block;
+    margin: 1.5vh auto;
 }
-#centre_description_text {
-    letter-spacing: 1px;
-    padding: 0 5px;
-    opacity: 1;
-    z-index: 102;
+#centre_description_text{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1.3vw;
+    color: #010101;
+    background: #ffffff;
+    border: 10px solid white;
+    border-radius: 10px;
 }
-#centre_description2{
-    width: 360px;
-    height: auto;
-    text-align: left;
-    position: absolute;
-    top: 382px;
-    left: 755px;
-    border-left: #fc912da2 2px solid;
-    background-color: rgba(255, 255, 255, 0.447);
-    opacity: 0.5;
-    z-index: 101;
-    animation: fileblink2 2s linear infinite;
+#centre_description_text_2{
+    font-weight: 600;
+    font-size: 2vw;
 }
-#centre_description_text2 {
-    letter-spacing: 1px;
-    padding: 0 5px;
-    opacity: 0;
-    z-index: 101;
+#centre_description{
+    margin-bottom: 10vh;
+}
+#centre_description_text_line{
+    width: auto;
+    border-bottom: #808080 solid 1px;
 }
 #total_section {
     width: 100%;
@@ -620,7 +609,6 @@ html{
     width: 100%;
     height: auto;
 }
-
 .section_box1{
     animation: section_box_blink 3s ease-in-out infinite;
     animation-delay: 0.1s;

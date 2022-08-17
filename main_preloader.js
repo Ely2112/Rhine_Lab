@@ -1,4 +1,4 @@
 setTimeout("redirect()", 19000);
 function redirect(){
-    window.location.href = "profolio.html";
+    window.location.href = "index.html";
 }
