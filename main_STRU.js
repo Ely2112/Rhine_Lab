@@ -35,7 +35,11 @@ tl8.from("#ORIG_Dorothy_Franks_1", 0.5, {display:"none"},"=-0.5");
 tl8.from("#ORIG_Dorothy_Franks_2", 0.5, {display:"none"},"=-0.5");
 tl8.from("#ORIG_Dorothy_Franks_3", 0.5, {display:"none"},"=-0.5");
 
-tl9.from("#eco_muelsyse_1", 1, {opacity: 0});
+tl9.from(".eco_left", 2, {x:-400, opacity: 0},"=0.4");
+tl9.from(".eco_right", 2, {x:600, opacity: 0},"=-2");
+tl9.from(".eco_special", 0.5, {opacity:0});
+tl9.from(".eco_special_2", 0.5, {display:"none"},"=-0.5");
+tl9.from("#eco_muelsyse_1", 0.5, {opacity: 0},"=-0.5");
 
 
 const scene5 = new ScrollMagic.Scene({

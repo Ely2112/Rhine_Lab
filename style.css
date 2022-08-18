@@ -982,7 +982,8 @@ html{
 }
 #ECO_section_main_water_info{
     width: 20%;
-    margin: 1vh auto;
+    margin: 0 auto;
+    margin-bottom: 1vh;
     display: block;
 }
 #ECO_section_main_water_text{
@@ -1004,10 +1005,16 @@ html{
 #ECO_Muelsyse_profile{
     width: 100%;
     height: auto;
+    opacity: 0;
+    animation: CMPT_CTRL_section_main_svg 0.1s forwards linear;
+    animation-delay: 0.3s;
 }
 #SCIEN_MAGALLAN_profile{
     width: 100%;
     height: auto;
+    opacity: 0;
+    animation: CMPT_CTRL_section_main_svg 0.1s forwards linear;
+    animation-delay: 0.3s;
 }
 #SCIEN_pole{
     width: 100%;
