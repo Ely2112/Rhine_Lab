@@ -3,7 +3,10 @@ var button_on_off = 0;
 function show_manga_AP(){
   if(button_on_off==0){
     document.getElementById("AP_saying").style.opacity = "1" ;
+    document.getElementById(`AP_saying`).style.padding = "5vh 0";
+    document.getElementById(`AP_saying`).style.height = "auto";
     for (i=1; i<11; i++){
+      document.getElementById(`AP${i}`).style.padding = "2vh 0";
       document.getElementById(`AP${i}`).style.opacity = "1" ;
       document.getElementById(`AP${i}`).style.height = "auto" ;
     }
@@ -11,7 +14,10 @@ function show_manga_AP(){
   }
   else if(button_on_off==1){
     document.getElementById("AP_saying").style.opacity = "0" ;
+    document.getElementById(`AP_saying`).style.padding = "0";
+    document.getElementById(`AP_saying`).style.height = "0" ;
     for (i=1; i<11; i++){
+      document.getElementById(`AP${i}`).style.padding = "0";
       document.getElementById(`AP${i}`).style.opacity = "0" ;
       document.getElementById(`AP${i}`).style.height = "0" ;
     }

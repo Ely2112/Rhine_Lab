@@ -741,20 +741,7 @@ html{
     width: 35%;
     border-radius: 25px;
 }
-#NRG_wrapper{
-    box-sizing: content-box;
-    background-color: #ffffff;
-    height: 54.4px;
-    width: 370px;
-    padding: 30px 20px;
-    display: flex;
-    border-radius: 25px;
-    position: relative;
-    right: 10%;
-    top: -150px;
-    border: rgb(203, 203, 203) 3px solid;
-    border-bottom: rgb(255, 0, 111) 3px solid;
-}
+
 #NRG_energy_words{
     overflow: hidden;
     font-size: 40px;
@@ -817,19 +804,6 @@ html{
     stroke-dashoffset: 150;
     animation: NRG_line_move 4s ease-in-out infinite;
 }
-#NRG_box_left{
-    opacity: 0;
-    animation: NRG_box_left_fade 4s ease-in-out infinite;
-}
-#NRG_box_right{
-    opacity: 0;
-    animation: NRG_box_right_fade 4s ease-in-out infinite;
-}
-@keyframes NRG_box_left_fade {
-    0%{opacity: 0.3;}
-    25%{opacity: 1;}
-    100%{opacity: 1;}
-}
 #ORIG_section_main_originium{
     text-align: center;
     place-items: center;
@@ -881,7 +855,7 @@ html{
 }
 #ORIG_section_main_originium_info{
     width: 20%;
-    margin: 0 auto;
+    margin: 1vh auto;
     display: block;
 }
 #ORIG_section_main_originium_text{
@@ -996,7 +970,7 @@ html{
 }
 #ECO_section_main_water_info{
     width: 20%;
-    margin: 0 auto;
+    margin: 1vh auto;
     display: block;
 }
 #ECO_section_main_water_text{
@@ -1117,7 +1091,7 @@ html{
     height: 0;
     display: flex;
     margin: auto;
-    padding: 2vh 0;
+    padding: 0;
     opacity: 0;
     transition: all 1s ease-in-out;
 }
@@ -1154,7 +1128,8 @@ html{
     cursor:pointer;
 }
 #KW_saying{
-    padding: 10% 0 ;
+    height: 0;
+    padding: 0;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 4vw;
     text-align: center;
@@ -1172,7 +1147,7 @@ html{
     height: 0;
     display: flex;
     margin: auto;
-    padding: 2vh 0;
+    padding: 0;
     opacity: 0;
     transition: all 1s ease-in-out;
 }
@@ -1209,7 +1184,8 @@ html{
     cursor:pointer;
 }
 #AP_saying{
-    padding: 10% 0 ;
+    height: 0;
+    padding: 0;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 4vw;
     text-align: center;
@@ -1226,7 +1202,7 @@ html{
     height: 0;
     display: flex;
     margin: auto;
-    padding: 2vh 0;
+    padding: 0;
     opacity: 0;
     transition: all 1s ease-in-out;
 }
@@ -1263,7 +1239,8 @@ html{
     cursor:pointer;
 }
 #M_saying{
-    padding: 10% 0 ;
+    height: 0;
+    padding: 0;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 4vw;
     text-align: center;
@@ -1272,6 +1249,12 @@ html{
     font-weight: 500;
     opacity: 0;
     transition: all 1s ease-in-out;
+}
+#main_manga{
+    width: 30vw;
+    height: auto;
+    display: block;
+    margin: 3vh auto;
 }
 @keyframes water_wave_1 {
     to{transform: translateX(-20%);}
