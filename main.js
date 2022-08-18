@@ -1,32 +1,10 @@
 console.log("hello world")
 
-var tl = new TimelineMax({onUpdate:updatePercentage});
 var tl2 = new TimelineMax();
 var tl3 = new TimelineMax();
 var tl4 = new TimelineMax();
 var tl5 = new TimelineMax();
 const controller = new ScrollMagic.Controller();
-
-tl.from('#file_heading1', 5, {y:200, opacity: 0});
-tl.to('#file_heading1', 10, {y:0, opacity: 1});
-tl.to('#file_heading1', 5, {y:200, opacity: 0});
-tl.add(function(){document.getElementById("file_headi-ng1").innerHTML = "SELECTING FILES. . . ";})
-tl.to('#file_heading1', 10, {y:200, opacity: 0});
-tl.add(function(){document.getElementById("file_heading1").innerHTML = "FILE NUMBER: X-001";})
-tl.to('#file_heading1', 5, {y:0, opacity: 1});
-tl.to('#file_heading1', 10, {y:0, opacity: 1});
-tl.from('#file_heading2', 5, {y:200, opacity: 0});
-tl.to('#file_heading2', 10, {y:0, opacity: 1});
-tl.from('#file_heading3', 5, {y:200, opacity: 0});
-tl.to('#file_heading3', 10, {y:0, opacity: 1});
-tl.to('#file_heading3', 5, {y:200, opacity: 0});
-tl.add(function(){document.getElementById("file_heading3").innerHTML = "LOADING. . .";})
-tl.to('#file_heading3', 10, {y:200, opacity: 0});
-tl.add(function(){document.getElementById("file_heading3").innerHTML = "SUCCESSFULLY LOADED";})
-tl.to('#file_heading3', 5, {y:0, opacity: 1});
-tl.to('#file_heading3', 10, {y:0, opacity: 1});
-
-
 
 tl2.from("#fileimg", 1, {y:-200,opacity: 0});
 tl2.from("#file_heading_box1", 1, {x:-200,y:-200,opacity: 0},"=-1");
@@ -50,16 +28,6 @@ tl4.from("#ECO", 0.7, {opacity: 0},"=-1");
 tl4.from("#HRI", 0.7, {opacity: 0},"=-1.1");
 tl4.from("#DEF", 0.7, {opacity: 0},"=-1.2");
 
-
-const scene = new ScrollMagic.Scene({
-  triggerElement: ".file",
-  triggerHook: "onLeave",
-  duration: "100%"
-})
-  .setPin(".file")
-  .setTween(tl)
-	.addTo(controller);
-
 const scene2 = new ScrollMagic.Scene({
   triggerElement: ".file"
 })
@@ -82,13 +50,6 @@ const scene5 = new ScrollMagic.Scene({
     })
     .setTween(tl5)
     .addTo(controller);  
-
-
-
-function updatePercentage() {
-  //percent.innerHTML = (tl.progress() *100 ).toFixed();
-  tl.progress();
-}
 
 let counter1 = 1;
 let state1 = 0; //0 means can move, other means cannot move
@@ -142,4 +103,3 @@ setInterval(function(){
     }
   }
 }, 100);
-

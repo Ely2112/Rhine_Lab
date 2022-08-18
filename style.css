@@ -16,20 +16,17 @@ html{
     --ce5: 340;
     --ce6: 340;
 }
-
 * {
     color: #010101;
     font-family: "Open Sans", sans-serif;
 }
-
 #introduction {
-    margin: 150px auto;
+    margin: 10vh auto;
     padding: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
-
 #smallerheading {
     opacity: 0;
     display: flex;
@@ -39,20 +36,12 @@ html{
     animation: fadein 1.5s ease-in-out forwards;
     animation-delay: 3.3s;
 }
-
-.file {
-    width: 600px;
-    margin: 100px auto;
-    display: block;
-}
-
 #heading1 {
     opacity: 0;
     font-size: 92px;
     animation: fadein 1.5s ease-in-out forwards;
     animation-delay: 1s;
 }
-
 #headingRHINE {
     overflow: hidden;
     opacity: 0;
@@ -119,18 +108,14 @@ html{
     bottom: 0px;
     animation: 2s sideheading1_fade ease-in-out forwards;
     animation-delay: 1s;
-
 }
-
 .bold{
     font-weight: 800;
 }
-
 #sideheadingRHINE {
     color: #010101;
     font-weight: bolder;
 }
-
 #preloader{
     outline: 10px solid #dfddd7;
     background: #dfddd7;
@@ -146,7 +131,6 @@ html{
     height: 100%; 
     width: 100%;
 }
-
 #sideheading2_1 {
     display: block;
     text-align: center;
@@ -162,36 +146,12 @@ html{
     text-align: center;
     font-size: 1.8vw;
 }
-#fileimg {
-    margin: 0 auto;
-    width: 100%;
-    height: 50%;
-    margin-top: 1%;
-    display: block;
-}
-
-#file_mid {
-    display: inline-block;
-}
-
-#file_heading {
-    font-size: 30px;
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 20%;
-}
-
-#file_heading_bold {
-    font-size: 30px;
-    font-weight: 800;
-}
-
 #youtube_video {
+    width: 30vw;
+    height: 16.875vw;
     display: block;
     margin: 3vh auto;
 }
-
-
 .midblock{
     display: block;
     margin: auto;
@@ -202,27 +162,23 @@ html{
     animation: 1ms disappear forwards;
     animation-delay: 15s;
 }
-
 .icon_path {
     stroke-dasharray: 2210;
     stroke-dashoffset: 2210;
     animation: loading 1.5s ease-out forwards;
     animation-delay: 3s;
 }
-
 .minus {
     animation: minus_loading 1s forwards ;
     animation-delay: 3.3s;
     opacity: 0;
 }
-
 .plus {
     animation: plus_loading 1s forwards, plus_rotate 5s infinite ;
     opacity: 0;
     transform-origin: 213px 204px;
     animation-delay: 3.3s, 11s;
 }
-
 #headingAccess {
     font-size: 30px;
     position: fixed;
@@ -249,8 +205,6 @@ html{
     animation: typewriter 2s steps(26) forwards, blink 1060ms steps(26) infinite, disappear 1ms forwards;
     animation-delay:0s, 0s, 2.9s;
 }
-
-
 #heading3Access {
     font-size: 30px;
     letter-spacing: 2px; 
@@ -326,7 +280,6 @@ html{
     animation: disappear 1ms forwards;
     animation-delay: 15s;
     z-index: 101;
-
 }
 #heading5Access::before,
 #heading5Access::after {
@@ -348,7 +301,6 @@ html{
     animation: typewriter2 1.1s steps(21) forwards, blink 1060ms steps(21) infinite, disappear 1ms forwards;
     animation-delay:11s,11s,15s;
 }
-
 #heading6Access {
     z-index: 111;
     font-size: 50px;
@@ -356,7 +308,6 @@ html{
     position: absolute;
     margin: auto;
 }
-
 .circle {
     opacity: 0;
     position: absolute;
@@ -425,71 +376,6 @@ html{
     opacity: 0;
     animation: heading6Access_anime 2.9s linear forwards,disappear 2s forwards;
     animation-delay: 15.1s, 17.8s;
-}
-
-#file_heading1 {
-    width: 600px;
-    text-align: center;
-    margin: 0;
-    overflow: hidden;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-}
-#file_heading2 {
-    text-align: center;
-    width: 600px;
-    margin: 0;
-    overflow: hidden;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-}
-#file_heading3 {
-    text-align: center;
-    width: 600px;
-    margin: 0;
-    overflow: hidden;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-#file_heading_box1 {
-    overflow: hidden;
-    background: #010101;
-    width: 10px;
-    height: 10px;
-    position: relative;
-    top: -150px;
-    left: 0px;
-}
-#file_heading_box2 {
-    overflow: hidden;
-    background: #010101;
-    width: 10px;
-    height: 10px;
-    position: relative;
-    top: -160px;
-    left: 587px;
-}
-#file_heading_box3 {
-    overflow: hidden;
-    background: #010101;
-    width: 10px;
-    height: 10px;
-    position: relative;
-    top: -15px;
-    left: 0px;
-}
-#file_heading_box4 {
-    overflow: hidden;
-    background: #010101;
-    width: 10px;
-    height: 10px;
-    position: relative;
-    top: -25px;
-    left: 587px;
 }
 #centre{
     display: block;
