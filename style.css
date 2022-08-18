@@ -540,6 +540,13 @@ html{
     margin-top: -185.5px;
     display: inline-block;
 }
+#CMPT_CTRL_section_main_svg{
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    animation: CMPT_CTRL_section_main_svg 0.1s forwards linear;
+    animation-delay: 0.3s;
+}
 #STRU_section_icon{
     text-align: center;
 }
@@ -556,6 +563,9 @@ html{
 #STRU_section_main_ahrens_parvis_main{
     height: auto;
     width: 100%;
+    opacity: 0;
+    animation: CMPT_CTRL_section_main_svg 0.1s forwards linear;
+    animation-delay: 0.3s;
 }
 #NRG_section_icon{
     text-align: center;
@@ -573,6 +583,9 @@ html{
 #NRG_section_main_FERDINAND_CLOONEY_main{
     height: auto;
     width: 100%;
+    opacity: 0;
+    animation: CMPT_CTRL_section_main_svg 0.1s forwards linear;
+    animation-delay: 0.3s;
 }
 #ORIG_section_icon{
     text-align: center;
@@ -590,6 +603,9 @@ html{
 #ORIG_section_main_Dorothy_Franks_main{
     height: auto;
     width: 100%;
+    opacity: 0;
+    animation: CMPT_CTRL_section_main_svg 0.1s forwards linear;
+    animation-delay: 0.3s;
 }
 #ECO_section_icon{
     text-align: center;
@@ -642,10 +658,6 @@ html{
 }
 #kirsten_wright{
     border: #E4EBE9 2px solid;
-}
-#CMPT_CTRL_section_main_svg{
-    height: auto;
-    width: 100%;
 }
 #CMPT_INFO{
     animation: CMPT_INFO_move 3s infinite linear;
@@ -1255,6 +1267,9 @@ html{
     height: auto;
     display: block;
     margin: 3vh auto;
+}
+@keyframes CMPT_CTRL_section_main_svg {
+    to{opacity: 1;}
 }
 @keyframes water_wave_1 {
     to{transform: translateX(-20%);}

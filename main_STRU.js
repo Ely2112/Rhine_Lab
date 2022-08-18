@@ -9,13 +9,31 @@ var tl9 = new TimelineMax();
 
 const controller = new ScrollMagic.Controller();
 
-tl5.from("#kirsten_wright", 1, {opacity: 0});
-tl6.from("#ahrens_parvis", 1, {opacity: 0});
-tl7.from("#Ferdinand_clooney", 1, {opacity: 0});
+tl5.from(".cmpt_left", 2, {x:-400, opacity: 0},"=0.4");
+tl5.from(".cmpt_right", 2, {x:600, opacity: 0},"=-2");
+tl5.from(".cmpt_special", 0.5, {opacity:0});
+tl5.from(".cmpt_special_2", 0.5, {display:"none"},"=-0.5");
+tl5.from("#kirsten_wright", 0.5, {opacity: 0},"=-0.5");
 
-tl8.from("#ORIG_Dorothy_Franks_1", 1, {opacity: 0});
-tl8.from("#ORIG_Dorothy_Franks_2", 1, {opacity: 0});
-tl8.from("#ORIG_Dorothy_Franks_3", 1, {opacity: 0});
+tl6.from(".stru_left", 2, {x:-400, opacity: 0},"=0.4");
+tl6.from(".stru_right", 2, {x:600, opacity: 0},"=-2");
+tl6.from(".stru_special", 0.5, {opacity:0});
+tl6.from(".stru_special_2", 0.5, {display:"none"},"=-0.5");
+tl6.from("#ahrens_parvis", 0.5, {opacity: 0},"=-0.5");
+
+tl7.from(".nrg_left", 2, {x:-400, opacity: 0},"=0.4");
+tl7.from(".nrg_right", 2, {x:600, opacity: 0},"=-2");
+tl7.from(".nrg_special", 0.5, {opacity:0});
+tl7.from(".nrg_special_2", 0.5, {display:"none"},"=-0.5");
+tl7.from("#Ferdinand_clooney", 0.5, {opacity: 0},"=-0.5");
+
+tl8.from(".orig_left", 2, {x:-400, opacity: 0},"=0.4");
+tl8.from(".orig_right", 2, {x:600, opacity: 0},"=-2");
+tl8.from(".orig_special", 0.5, {opacity:0});
+tl8.from(".orig_special_2", 0.5, {display:"none"},"=-0.5");
+tl8.from("#ORIG_Dorothy_Franks_1", 0.5, {display:"none"},"=-0.5");
+tl8.from("#ORIG_Dorothy_Franks_2", 0.5, {display:"none"},"=-0.5");
+tl8.from("#ORIG_Dorothy_Franks_3", 0.5, {display:"none"},"=-0.5");
 
 tl9.from("#eco_muelsyse_1", 1, {opacity: 0});
 

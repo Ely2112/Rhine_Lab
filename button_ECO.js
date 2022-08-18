@@ -5,7 +5,7 @@ function show_manga_M(){
     document.getElementById("M_saying").style.opacity = "1" ;
     document.getElementById(`M_saying`).style.padding = "5vh 0";
     document.getElementById(`M_saying`).style.height = "auto";
-    for (i=1; i<11; i++){
+    for (i=1; i<13; i++){
       document.getElementById(`M${i}`).style.padding = "2vh 0";
       document.getElementById(`M${i}`).style.opacity = "1" ;
       document.getElementById(`M${i}`).style.height = "auto" ;
@@ -16,7 +16,7 @@ function show_manga_M(){
     document.getElementById("M_saying").style.opacity = "0" ;
     document.getElementById(`M_saying`).style.padding = "0";
     document.getElementById(`M_saying`).style.height = "0" ;
-    for (i=1; i<11; i++){
+    for (i=1; i<13; i++){
       document.getElementById(`M${i}`).style.padding = "0";
       document.getElementById(`M${i}`).style.opacity = "0" ;
       document.getElementById(`M${i}`).style.height = "0" ;
