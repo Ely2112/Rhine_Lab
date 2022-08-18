@@ -32,13 +32,13 @@ html{
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 3vw;/**58px**/
     animation: fadein 1.5s ease-in-out forwards;
     animation-delay: 3.3s;
 }
 #heading1 {
     opacity: 0;
-    font-size: 92px;
+    font-size: 4.7vw; /**92px**/
     animation: fadein 1.5s ease-in-out forwards;
     animation-delay: 1s;
 }
@@ -58,8 +58,8 @@ html{
     transform-origin: 100% 50%;
     content: "";
     position: absolute;
-    width: 636px;
-    height: 110px;
+    width: 28vw;
+    height: 6vw;
     background: #dfddd7;
     padding: 0px 30px;
     animation: typewriter3 1.5s ease-in-out forwards;
@@ -73,13 +73,13 @@ html{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 20%;
 }
 
 .heading {
     font-weight: 600;
     text-align: center;
-    font-size: 80px;
+    font-size: 4vw; /**80px**/
     align-items: center;
     align-content: center;
 }
@@ -380,9 +380,9 @@ html{
 #centre{
     display: block;
     transform-origin: center center;
-    margin: 0 auto;
     width: 70vw;
     height: auto;
+    margin: 10vh auto;
 }
 
 
@@ -464,7 +464,7 @@ html{
     width: 30%;
     height: auto;
     display: block;
-    margin: 1.5vh auto;
+    margin: 2vh auto;
 }
 #centre_description_text{
     text-align: center;
