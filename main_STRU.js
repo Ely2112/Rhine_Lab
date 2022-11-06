@@ -5,7 +5,7 @@ var tl6 = new TimelineMax();
 var tl7 = new TimelineMax();
 var tl8 = new TimelineMax();
 var tl9 = new TimelineMax();
-
+var tl10 = new TimelineMax();
 
 const controller = new ScrollMagic.Controller();
 
@@ -41,6 +41,14 @@ tl9.from(".eco_special", 0.5, {opacity:0});
 tl9.from(".eco_special_2", 0.5, {display:"none"},"=-0.5");
 tl9.from("#eco_muelsyse_1", 0.5, {opacity: 0},"=-0.5");
 
+tl10.from(".scien_left", 2, {x:-400, opacity: 0},"=0.4");
+tl10.from(".scien_right", 2, {x:600, opacity: 0},"=-2");
+tl10.from(".scien_special", 0.5, {opacity:0});
+tl10.from(".scien_special_2", 0.5, {display:"none"},"=-0.5");
+tl10.from("#SCIEN_Magallan_2", 0.5, {display:"none"},"=-0.5");
+tl10.from("#SCIEN_Magallan_1", 0.5, {display:"none"},"=-0.5");
+tl10.from("#SCIEN_Magallan_3", 0.5, {display:"none"},"=-0.5");
+
 
 const scene5 = new ScrollMagic.Scene({
   triggerElement: "#CMPT_CTRL_section_main"
@@ -68,6 +76,10 @@ const scene9 = new ScrollMagic.Scene({
   .setTween(tl9)
   .addTo(controller);
 
-
+  const scene10 = new ScrollMagic.Scene({
+    triggerElement: "#SCIEN_MAGALLAN_profile"
+    })
+    .setTween(tl10)
+    .addTo(controller);
 
 

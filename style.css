@@ -20,6 +20,14 @@ html{
     color: #010101;
     font-family: "Open Sans", sans-serif;
 }
+
+#reload {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 2vw;
+}
+
 #introduction {
     margin: 10vh auto;
     padding: 20px;
@@ -890,6 +898,19 @@ html{
     animation-delay: 5s;
 }
 #ORIG_Dorothy_Franks_3{
+    opacity: 0;
+    animation: ORIG_Dorothy_Franks_fade 15s linear infinite;
+    animation-delay: 10s;
+}
+#SCIEN_Magallan_1{
+    animation: ORIG_Dorothy_Franks_fade 15s linear infinite;
+}
+#SCIEN_Magallan_2{
+    opacity: 0;
+    animation: ORIG_Dorothy_Franks_fade 15s linear infinite;
+    animation-delay: 5s;
+}
+#SCIEN_Magallan_3{
     opacity: 0;
     animation: ORIG_Dorothy_Franks_fade 15s linear infinite;
     animation-delay: 10s;
