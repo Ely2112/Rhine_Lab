@@ -1,5 +1,7 @@
 # Rhine_Lab
-Website design of https://www.youtube.com/watch?v=-_HeLFGCw7M
+Website Link: https://ely2112.github.io/Rhine_Lab/
+
+Website design of "Arknights - Rhine Lab: Access"  
 
 Demo Video:
 
